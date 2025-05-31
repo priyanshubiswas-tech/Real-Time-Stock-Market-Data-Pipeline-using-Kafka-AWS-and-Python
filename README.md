@@ -1,4 +1,4 @@
-# 📈 Real-Time Stock Market Data Pipeline using Kafka, AWS, and Python
+#  Real-Time Stock Market Data Pipeline using Kafka, AWS, and Python
 
 This project demonstrates a real-time streaming pipeline that simulates stock market data, processes it with Kafka, stores it in AWS S3, and queries it using AWS Athena.
 
