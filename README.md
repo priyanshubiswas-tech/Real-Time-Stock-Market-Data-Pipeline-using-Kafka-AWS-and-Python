@@ -4,17 +4,6 @@ This project demonstrates a real-time streaming pipeline that simulates stock ma
 
 ---
 
-## 🎯 What You Will Learn
-
-👉 Build a real-time simulation app using Python
-👉 Understand Kafka fundamentals (Broker, Producer, Consumer, Zookeeper)
-👉 Install and configure Kafka on an EC2 instance
-👉 Write Kafka Producer and Consumer using Python
-👉 Stream and store data to AWS S3
-👉 Query real-time data using AWS Athena
-
----
-
 ## 🏗 Architecture Diagram
 
 ```
@@ -31,7 +20,7 @@ This project demonstrates a real-time streaming pipeline that simulates stock ma
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 real-time-stock-data-pipeline/
@@ -69,21 +58,6 @@ real-time-stock-data-pipeline/
 
 ---
 
-## ✨ Deliverables
-
-| Category       | Description                                                               |
-| -------------- | ------------------------------------------------------------------------- |
-| 💻 Code        | Python scripts for producer (stock simulation) and consumer (S3 uploader) |
-| ⚙ Kafka        | Scripts to install Kafka, start services, and create topics               |
-| ☁ AWS Config   | Athena SQL query, S3 setup guide, IAM policy                              |
-| 🧪 Sample Data | Sample `CSV` for testing without Kafka/S3                                 |
-| 📄 Docs        | README, architecture diagram, and optional setup guides                   |
-| 📦 Scripts     | Dependency file (`requirements.txt`) and environment setup script         |
-
----
-
-## 🚀 Getting Started
-
 ### 1. Kafka Installation on EC2
 
 ```bash
@@ -112,7 +86,7 @@ bin/kafka-topics.sh --create \
 
 ---
 
-## 🧬 Python Code
+##  Python Code
 
 ### ➔ `producer/producer.py`
 
@@ -211,7 +185,7 @@ TBLPROPERTIES ('has_encrypted_data'='false');
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 ### ➔ `scripts/requirements.txt`
 
@@ -230,7 +204,7 @@ pip install -r scripts/requirements.txt
 
 ---
 
-## 📜 References
+##  References
 
 * [Kafka Documentation](https://kafka.apache.org/documentation/)
 * [Kafka-Python Client](https://kafka-python.readthedocs.io/en/master/)
@@ -239,7 +213,7 @@ pip install -r scripts/requirements.txt
 
 ---
 
-## 🧠 Future Improvements
+##  Future Improvements
 
 * Stream data using Apache Avro or Parquet for better efficiency
 * Integrate AWS Glue for schema discovery
