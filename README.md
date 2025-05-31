@@ -4,7 +4,7 @@ This project demonstrates a real-time streaming pipeline that simulates stock ma
 
 ---
 
-## 🏗 Architecture Diagram
+##  Architecture Diagram
 
 ```
 +-------------+       +-------------+       +-------------+       +-------------+
@@ -24,7 +24,7 @@ This project demonstrates a real-time streaming pipeline that simulates stock ma
 
 ```
 real-time-stock-data-pipeline/
-🌀
+
 ├── kafka/
 │   ├── kafka_installation.md         # Kafka + Zookeeper setup guide
 │   ├── start_kafka.sh                # Script to start Kafka and Zookeeper
